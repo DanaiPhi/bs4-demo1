@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Danai Phianphutthikorn",
-  "license": "ISC",
+  "license": "GNU GENERAL PUBLIC LICENSE",
   "dependencies": {
     "font-awesome": "^4.7.0",
     "jquery": "^3.0.0",
