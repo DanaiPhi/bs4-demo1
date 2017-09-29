@@ -1,0 +1,82 @@
+.main-bar {
+    background-color: #000;
+    
+    a {
+        text-transform: uppercase;
+    }
+}
+
+.hero-section {
+    background-image: url("../images/bg-hero.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10rem 0;
+}
+
+.btn-outline-secondary {
+    &:hover {
+        color: #000 ;
+    }
+}
+
+.section-content {
+    padding: 3.5rem 0;
+}
+
+.section-img {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    padding: 5rem 0;
+}
+
+.overview-section {
+    background-image: url("../images/bg-overview.jpg");
+    padding: 8rem 0;
+}
+
+.premium-section {
+    background-image: url("../images/bg-premium.jpg");
+}
+
+.news-items {
+    a {
+        color: #000;
+    }
+}
+
+.newslatter-section {
+    background-image: url("../images/bg-newslatter.jpg");
+}
+
+.footer-section {
+    background-color: #111;
+    
+    h5 {
+        color: #fff;
+    }
+    
+    a {
+        color: #999;
+    }
+}
+
+.footer-nav {
+    border-bottom: 1px solid #666;
+}
+
+.card-columns {
+    @include media-breakpoint-only(xs) {
+        column-count: 1;
+    }
+    
+    @include media-breakpoint-only(sm) {
+        column-count: 2;
+    }
+    
+    @include media-breakpoint-only(lg) {
+        column-count: 3;
+    }
+}

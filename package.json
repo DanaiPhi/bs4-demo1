@@ -1,0 +1,21 @@
+{
+  "name": "Bootstrap4-Beta-Demo1",
+  "version": "1.0.0",
+  "description": "Bootstrap 4 beta - Demo 1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Danai Phianphutthikorn",
+  "license": "ISC",
+  "dependencies": {
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.0.0",
+    "popper.js": "^1.11.0"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0"
+  }
+}
